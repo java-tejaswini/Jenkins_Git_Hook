@@ -13,6 +13,6 @@ public class MyController {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome from spring";
+		return "welcome from spring from Git";
 	}
 }
