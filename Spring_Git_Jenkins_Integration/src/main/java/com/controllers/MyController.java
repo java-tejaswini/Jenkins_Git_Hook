@@ -11,7 +11,7 @@ public class MyController {
 		return "hello from spring";
 	}
 	
-	@GetMapping("/welcome")
+	@GetMapping("/welcome123")
 	public String welcome() {
 		return "welcome from spring from Git";
 	}
