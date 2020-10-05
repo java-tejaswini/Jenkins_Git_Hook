@@ -11,4 +11,8 @@ public class MyController {
 		return "hello from spring";
 	}
 	
+	@GetMapping("/welcome")
+	public String welcome() {
+		return "welcome from spring";
+	}
 }
